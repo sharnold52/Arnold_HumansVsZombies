@@ -1,0 +1,32 @@
+Sean Arnold, Section 1, Humans Vs Zombies
+
+Description:
+ 	- Humans try to avoid zombies (Evade when farther away, flee when up close) and zombies pursue humans. Humans seek a target when they get close to it.
+
+User Responsibilities/Functionality:
+	- Everything begins on start-up
+	- Controls:
+		~ Z Key - Spawns zombie at mouse position
+		~ H Key - Spawns human at mouse position
+		~ O Key - Spawns object at mouse position
+		~ C Key - Change camera view
+		~ D Key - Draw Debug lines
+		~ R key - Resets everything
+
+Above and Beyond:
+	- Zombies, humans, objects spawn at mouse position. This uses a ray cast from the camera.
+	- Humans seek object when they get in range
+	- There is a reset button
+	- Spinning Camera (Last camera in the set)
+	- Third Agent: Purifiers seek out zombies. They are spawned in when humans hit spheres of truth. They pursue the closest zombie and purify them when they come into 		contact. They are destroyed once they purify one zombie.
+	- The effect for the purifier and sphere of truth was a result of messing with Particle systems effects for a bit.
+	
+Known Issues
+	- Sometimes the zombies or humans run through each other when a lot of agents are packed really close together.
+	
+Sources
+	- Zombies/Skeletons = https://www.assetstore.unity3d.com/en/#!/content/95640
+	- Humans = https://www.assetstore.unity3d.com/en/#!/content/86576
+	- Tombstone = https://www.assetstore.unity3d.com/en/#!/content/92671
+	- grass_Dead = https://www.sketchuptextureclub.com/textures/nature-elements/vegetation/dry-grass/dry-grass-texture-seamless-12936
+	- leaves_dead = https://www.sketchuptextureclub.com/textures/nature-elements/vegetation/leaves-dead/leaves-dead-texture-seamless-13144
